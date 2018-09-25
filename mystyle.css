@@ -1,0 +1,147 @@
+html body {
+    background:#24272c;
+
+}
+
+.soft{
+    text-align:center;
+    margin:50px auto;
+
+}
+
+.soft h1{
+    letter-spacing:5px;
+    text-transform:uppercase;
+    color:white;
+    font-weight:200;
+    border-top: 5px dotted grey;
+    border-bottom:5px dotted grey;
+    font-size:30px;
+    padding:10px 0;
+}
+.col-md-6 ul{
+    list-style-type:none;
+    color:white;
+}
+.content{
+    margin:auto!important;
+}
+.left{
+    text-align:right;
+}
+.hexagon {
+    position: relative;
+    width: 20px;
+    height: 11.55px;
+    background-color: #485273;
+    margin: 5.77px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 5.77px solid #485273;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 5.77px solid #485273;
+}
+
+/* ------------ hex 1 ------ */
+.hexagon1 {
+    position: relative;
+    width: 20px;
+    height: 11.55px;
+    background-color: transparent;
+    margin: 5.77px 0;
+    border-left: solid 2px #485273;
+    border-right: solid 2px #485273;
+}
+
+.hexagon1:before,
+.hexagon1:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 14.14px;
+    height: 14.14px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 0.9289px;
+}
+
+.hexagon1:before {
+    top: -7.0711px;
+    border-top: solid 2.8284px #485273;
+    border-right: solid 2.8284px #485273;
+}
+
+.hexagon1:after {
+    bottom: -7.0711px;
+    border-bottom: solid 2.8284px #485273;
+    border-left: solid 2.8284px #485273;
+}
+
+/* --------- hex1 end -------- */
+
+.right ul li{
+    display:flex;
+    padding:5px 0;
+}
+.left ul li{
+    padding:5px 0;
+}
+.exp{
+    text-align:center;
+    margin:50px auto;
+
+}
+.exp h1{
+    letter-spacing:5px;
+    text-transform:uppercase;
+    color:white;
+    font-weight:200;
+    border-top: 5px dotted grey;
+    border-bottom:5px dotted grey;
+    font-size:30px;
+    padding:10px 0;
+}
+.exp p{
+    text-align:right;
+}
+.exp p.blue{
+    color:#4a749b;
+    font-size:20px;
+    font-weight:800;
+    text-transform:uppercase;
+    margin:50px 0 0;
+}
+.exp p.white{
+    color:white;
+    font-size:20px;
+    font-weight:800;
+    text-transform:uppercase;
+    margin-bottom:0;
+}
+.exp p.grey{
+    color:#717172;
+    font-size:20px;
+    font-weight:600;
+
+}
+.exp p.description{
+    color:white;
+}
+
